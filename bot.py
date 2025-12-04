@@ -9,7 +9,8 @@ from telegram.ext import (
     filters
 )
 
-TOKEN = "8180312496:AAGUVMqZfX1AdREKnTfPq6KZzJdZufpHeAc"
+import os
+TOKEN = os.getenv("BOT_TOKEN")
 ADMIN_ID = 592552916
 
 link = {}
