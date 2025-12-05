@@ -1,2 +1,2 @@
 #!/bin/sh
-python3 bots.py
+python3 2077.py
